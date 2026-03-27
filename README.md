@@ -1,6 +1,6 @@
 # NeoBank SA — Project Master Brief
 
-> SA Digital Banking Platform · 4-Person Microservices Project · BBD Portfolio
+> SA Digital Banking Platform · 4-Person Microservices Project
 
 ---
 
