@@ -183,7 +183,7 @@ fraud_events   (id, payment_ref, rule_name, score, reason, created_at)
 review_queue   (id, payment_ref, assigned_to, decision, decided_at)
 ```
 
-> ⭐ **Technical highlight:** Chain of Responsibility fraud engine. Open/Closed Principle — new rules never touch existing code.
+ **Technical highlight:** Chain of Responsibility fraud engine. Open/Closed Principle — new rules never touch existing code.
 
 ---
 
@@ -305,12 +305,3 @@ The timeline is front-loaded with planning and contracts. The biggest risk in a 
 - Error handling and meaningful error responses on all endpoints
 - Seed data script that populates a demo customer, account, and transaction history
 - **Deliverable:** A stranger can clone the repo, run `docker-compose up`, and hit the demo flow
-
-### Week 8 — Demo Preparation
-- Rehearse the demo script at least twice as a full team
-- Each person prepares a 2-minute deep-dive on their service's most impressive technical feature
-- Prepare answers to likely BBD interview questions (see Section 6)
-- Record a backup demo video in case of live technical issues
-- **Deliverable:** Team is confident and the demo runs in under 10 minutes
-
----
